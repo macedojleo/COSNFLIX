@@ -1,0 +1,10 @@
+
+  <h1 class="movieShowcase__heading">{{ message }}</h1>
+  <div class="movieShowcase__container">
+      <div *ngFor="let item of movieList">
+            <div class="movieShowcase__container--movie">
+                    <img (click) = "onSelect(item)" src="{{item.image}}" class="movieShowcase__container--movie-image">
+            </div>
+      </div>
+  </div>
+
