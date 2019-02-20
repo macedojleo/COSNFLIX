@@ -1,0 +1,12 @@
+.container {
+  grid-template-rows: min-content min-content min-content min-content;
+  grid-template-columns: 4% repeat(10, 1fr) 4%;
+  //display: grid;
+}
+
+.movieShowcase {
+  background-color: #111111;
+  //grid-column: 2 / 13;
+  color: #fff;
+  margin-left: 5%;
+}
